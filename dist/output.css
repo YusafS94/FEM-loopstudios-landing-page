@@ -520,8 +520,46 @@ video {
   display: grid;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-mobile-hero {
+  background-image: url(./images/mobile/image-hero.jpg);
+}
+
+.bg-desktop-hero {
+  background-image: url(./images/desktop/image-hero.jpg);
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 
 .text-2xl {
@@ -555,4 +593,8 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.outline-dashed {
+  outline-style: dashed;
 }
