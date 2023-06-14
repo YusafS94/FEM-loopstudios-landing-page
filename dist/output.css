@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Alata", sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -516,20 +516,179 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.float-right {
+  float: right;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
 
-.h-5 {
-  height: 1.25rem;
+.hidden {
+  display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-5\/12 {
+  width: 41.666667%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-solid {
-  border-style: solid;
 }
 
 .border-black {
@@ -537,39 +696,126 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-mobile-hero {
-  background-image: url(./images/mobile/image-hero.jpg);
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-desktop-hero {
-  background-image: url(./images/desktop/image-hero.jpg);
+.bg-transparent {
+  background-color: transparent;
 }
 
-.bg-auto {
-  background-size: auto;
+.bg-\[url\(\'\/images\/mobile\/image-curiosity\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-curiosity.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-deep-earth\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-deep-earth.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-fisheye\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-fisheye.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-from-above\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-from-above.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-grid\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-grid.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-hero\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-hero.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-night-arcade\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-night-arcade.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-pocket-borealis\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-pocket-borealis.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-soccer-team\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-soccer-team.jpg');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.bg-bottom {
+  background-position: bottom;
 }
 
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
+.bg-center {
+  background-position: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.font-heading {
+  font-family: Josefin Sans, sans-serif;
+}
+
+.font-sans {
+  font-family: "Alata", sans-serif;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -587,14 +833,88 @@ video {
   line-height: 1rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.uppercase {
+  text-transform: uppercase;
 }
 
-.underline {
-  text-decoration-line: underline;
+.leading-none {
+  line-height: 1;
 }
 
-.outline-dashed {
-  outline-style: dashed;
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+@media (min-width: 640px) {
+  .sm\:container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+    .sm\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .sm\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .sm\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .sm\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .sm\:container {
+      max-width: 1536px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:order-3 {
+    order: 3;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .lg\:bg-\[url\(\'\/images\/desktop\/image-hero\.jpg\'\)\] {
+    background-image: url('/images/desktop/image-hero.jpg');
+  }
 }
